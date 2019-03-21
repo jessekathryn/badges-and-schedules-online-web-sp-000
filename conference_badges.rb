@@ -17,7 +17,8 @@ def assign_rooms(speakers)
   rooms
 end
 
-def printer(speaker)
-  puts batch_badge_creator(speaker)
+def printer(speakers)
+  speakers.collect |speaker| do
+  puts batch_badge_creator(speakers)
   end
   
