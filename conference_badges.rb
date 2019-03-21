@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  batch_badge_creator(speakers).each_with_index
+  batch_badge_creator(speakers).eac
   badges << assign_rooms(speakers)
   puts badge
   end
