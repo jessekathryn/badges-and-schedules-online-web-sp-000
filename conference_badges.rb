@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker| 
-  is #{speaker}. You'll be assigned to room #{room}!"
+  puts batch_badge_creator(rooms)
   end
 end
   
