@@ -23,4 +23,5 @@ def printer(speakers)
     binding.pry
   puts badge
   end
+  assign_rooms(speakers)
 end  
