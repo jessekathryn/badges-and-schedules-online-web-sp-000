@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker| 
-  puts "Hello, my name is #{speaker}."
+  puts "Hello, my name is #{speaker}. You'll be assigned to room #{room}!"
   end
 end
   
