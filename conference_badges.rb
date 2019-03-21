@@ -22,5 +22,5 @@ def printer(speakers)
   badges = Array.new
   speakers.each do |badge| 
    puts badge
-end
-  
+  end
+end  
