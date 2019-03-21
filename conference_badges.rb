@@ -16,6 +16,7 @@ def assign_rooms(speakers)
       #binding.pry
       rooms <<  "You'll be assigned to room #{room}!"
   end
+  rooms
 end
 
 def printer()
