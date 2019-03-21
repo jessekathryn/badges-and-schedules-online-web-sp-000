@@ -13,8 +13,9 @@ end
 def assign_rooms(speakers)
   rooms = Array.new
     speakers.each_with_index do |speaker, room|
-      speaker[room] = rooms
-      return "Hello #{speaker}! You'll be assigned to room #{room}!"
+      speaker[room] << rooms 
+      return "You'll be assigned to room #{room}!"
   end
 end
 
+def printer()
