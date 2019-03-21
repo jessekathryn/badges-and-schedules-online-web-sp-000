@@ -18,7 +18,6 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  binding.pry
   speakers.collect do |speaker| 
   puts batch_badge_creator(speakers)
   end
