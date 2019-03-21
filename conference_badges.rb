@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker| 
-  puts "Hello, #{name}!"
+  puts "Hello, my name is #{speaker}!"
   end
 end
   
