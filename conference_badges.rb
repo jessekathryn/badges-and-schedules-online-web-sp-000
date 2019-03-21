@@ -21,7 +21,8 @@ end
 def printer(speakers)
   badges = Array.new
   speakers.each do |badge| 
-    badges << "Hello, #{speaker}! You'll be assigned to room #{room+1}!"
+   badges << "Hello, #{speaker}! You'll be assigned to room #{room+1}!"
   end
+   badges
 end
   
