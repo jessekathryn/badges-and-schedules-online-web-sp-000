@@ -4,7 +4,7 @@ end
 
 speakers = ["Edsger","Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(speaker)
   speakers.collect do |speaker|
     badge_maker(speaker) 
  end
