@@ -1,7 +1,7 @@
 require 'pry'
 
 def badge_maker(name)
- return "Hello, my name is #{name}."
+ "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(speakers)
@@ -15,7 +15,7 @@ def assign_rooms(speakers)
     speakers.each_with_index do |speaker, room|
       binding.pry
       speaker[room] << rooms 
-      return "You'll be assigned to room #{room}!"
+      "You'll be assigned to room #{room}!"
   end
 end
 
