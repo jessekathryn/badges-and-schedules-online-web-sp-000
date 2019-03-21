@@ -20,7 +20,6 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker| 
-    binding.pry
   puts "Hello, #{name}!"
   end
 end
