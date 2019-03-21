@@ -5,7 +5,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers)
-  binding.pry
   speakers.collect do |speaker|
     badge_maker(speaker) 
  end
