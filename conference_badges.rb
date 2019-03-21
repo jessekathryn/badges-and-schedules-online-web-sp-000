@@ -19,6 +19,7 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker| 
+    binding.pry
   puts batch_badge_creator(speakers)
   end
 end
