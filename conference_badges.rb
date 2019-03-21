@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   speakers.collect do |speaker, room| 
-  puts batch_badge_creator(rooms)
+  puts batch_badge_creator(speakers)
   end
 end
   
